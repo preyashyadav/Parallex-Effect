@@ -172,6 +172,13 @@ parallax img#mountains_behind {
   z-index: 9;
 }
 
+@media screen and (max-width: 480px) {
+  #text {
+    right: 85px !important;
+    font-size: 3rem;
+  }
+}
+
 #btn {
   text-decoration: none;
   padding: 8px 30px;
