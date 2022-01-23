@@ -176,6 +176,7 @@ parallax img#mountains_behind {
   #text {
     right: 85px !important;
     font-size: 3rem;
+    z-index: 10;
   }
 }
 
