@@ -204,10 +204,17 @@ parallax img#mountains_behind {
   z-index: 10000;
 }
 
-.sec h2 {
+heading {
   font-size: 3.5rem;
   margin-bottom: 10px;
   color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+  heading {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
 }
 
 .sec p {
