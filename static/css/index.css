@@ -228,11 +228,11 @@ heading {
 /* -------------------------------------CARD-------------------------------------- */
 
 .box1 {
-  background-color: #93bc52;
+  background-color: #cd4300;
 }
 
 .box2 {
-  background-color: #7e4f47;
+  background-color: #8a1429;
 }
 
 .box3 {
@@ -317,11 +317,14 @@ img {
 }
 
 .bg {
-  background: linear-gradient(
-      rgba(79, 214, 238, 0.555),
-      rgba(52, 211, 73, 0.616)
+  /* background: linear-gradient(rgb(79, 214, 238), rgb(52, 211, 73)),
+    url("/images/14823.jpg"); */
+  background-image: linear-gradient(
+      to bottom,
+      rgba(9, 228, 210, 0.692),
+      rgba(23, 143, 43, 0.753)
     ),
-    url(/images/footer.jpg);
+    url("/images/footer.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
