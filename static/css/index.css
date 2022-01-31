@@ -13,11 +13,12 @@
 /*----------------------- custom scroll bar----------------------------------------- */
 /* Scrollbar Styling */
 ::-webkit-scrollbar {
+  background-color: transparent;
   width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #ebebeb;
+  background-color: transparent;
   -webkit-border-radius: 10px;
   border-radius: 10px;
 }
@@ -247,8 +248,8 @@ heading {
   font-family: "Muli", serif;
   font-size: 5rem;
   font-weight: 300;
-  color: #4b4b4b;
-  margin-bottom: 6rem;
+  color: #706b6b;
+  margin-bottom: 2rem;
 }
 
 .underline {
@@ -469,9 +470,9 @@ heading {
 }
 
 @media (max-width: 500px) {
-  html {
+  /* html {
     font-size: 45%;
-  }
+  } */
   .service {
     width: 30rem;
   }
